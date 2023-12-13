@@ -19,17 +19,18 @@ header{
     top: 0;
     left: 0;
     width: 75%;
-    background-color: #22223B; /* Adjust the background color as needed */
+    background-color: #F2E9E4; /* Adjust the background color as needed */
     padding: 10px 0; /* Add padding to make it more visible */
     z-index: 1000; /* Adjust the z-index as needed to ensure it appears above other content */
     border-radius: 0 0 15px 15px;
 }
 .MainTitleHolder{
     text-align: center;
-    color: rgb(255, 255, 255);
+
+    
 }
 .letter{
-    color: rgb(201, 173, 167);
+    color: #9A8C98;
 }
 
 /*content*/
@@ -54,19 +55,17 @@ header{
 }
 
 main{
-    color: rgb(255, 255, 255);
     border-radius: 15px;
     width: 75%;
     margin-top: 7px;
-    background-color: #22223B;
+    background-color: #F2E9E4;
     transform: translateX(15%);
 }
 .main-one{
-    color: rgb(255, 255, 255);
     border-radius: 15px;
     width: 75%;
     margin-top: 85px;
-    background-color: #22223B;
+    background-color: #F2E9E4;
     transform: translateX(15%);
 }
 .main-topic-holder{
@@ -111,5 +110,4 @@ main{
 }
 .right-arrow-link{
     text-decoration: none;
-    color: white;
 }
