@@ -14,7 +14,7 @@ header{
     font-size: 25px;
     left: 50%;
     transform: translateX(15%);
-    position: fixed;
+    position: relative;
     display:block;
     top: 0;
     left: 0;
@@ -33,7 +33,9 @@ header{
     text-align: start;
     text-decoration: none;
 }
-
+.letter{
+    color: rgb(201, 173, 167);
+}
 
 /*content*/
 
@@ -61,7 +63,7 @@ header{
     color: rgb(255, 255, 255);
     border-radius: 15px;
     width: 75%;
-    margin-top: 85px;
+    margin-top: 7px;
     background-color: #22223B;
     transform: translateX(15%);
 }

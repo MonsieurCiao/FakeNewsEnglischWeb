@@ -28,7 +28,9 @@ header{
     text-align: center;
     color: rgb(255, 255, 255);
 }
-
+.letter{
+    color: rgb(201, 173, 167);
+}
 
 /*content*/
 
