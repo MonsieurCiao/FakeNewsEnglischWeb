@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 html{
     min-height: 1080px;
 }
@@ -13,12 +14,12 @@ body{
 header{
     font-size: 25px;
     left: 50%;
-    transform: translateX(15%);
+    transform: translateX(11%);
     position: fixed;
     display:block;
     top: 0;
     left: 0;
-    width: 75%;
+    width: 80%;
     background-color: #F2E9E4; /* Adjust the background color as needed */
     padding: 10px 0; /* Add padding to make it more visible */
     z-index: 1000; /* Adjust the z-index as needed to ensure it appears above other content */
@@ -47,6 +48,7 @@ main{
     background-color: #F2E9E4;
     transform: translateX(15%);
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.529) ;
+    transition: zoom 0.3s ease; /* Add transition effect */
 }
 a{
 
@@ -79,6 +81,7 @@ a{
     background-color: #F2E9E4;
     transform: translateX(15%);
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.529) ;
+    transition: zoom 0.3s ease; /* Add transition effect */
 }
 .further-topic-two{
     min-height:270px;
@@ -88,6 +91,7 @@ a{
     background-color: #F2E9E4;
     transform: translateX(15%);
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.529) ;
+    transition: zoom 0.3s ease; /* Add transition effect */
 }
 .further-topic-heading{
     padding: 10px;
@@ -102,4 +106,45 @@ a{
     padding: 0 10px 10px 10px;
     width: 90%;
     max-width: 300px;
+}
+
+/*footer*/
+footer{
+    margin-top: 10px;
+    font-size: 20px;
+    left: 50%;
+    transform: translateX(11%);
+    display:block;
+    top: 0;
+    left: 0;
+    width: 80%;
+    background-color: #F2E9E4; /* Adjust the background color as needed */
+    padding: 10px 0; /* Add padding to make it more visible */
+    z-index: 1000; /* Adjust the z-index as needed to ensure it appears above other content */
+    border-radius: 15px 15px 0 0;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.529) ;
+}
+.about-link{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*HOVER EFFECTS*/
+.main-topic:hover{
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.8);
+}
+.further-topic-one:hover{
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.8);
+}
+.further-topic-two:hover{
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.8);
+
 }
